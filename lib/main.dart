@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -78,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
               sizeFactor: animation,
               key: UniqueKey(),
               child: Card(
-                margin: EdgeInsets.all(10.0),
+                margin: const EdgeInsets.all(10.0),
                 elevation: 10,
                 color: Colors.blue,
                 child: ListTile(
